@@ -1,0 +1,33 @@
+/*ColorTitles this class, adds color and style to the titles of the topics*/
+.ColorTitles {
+	text-align: center;
+	color: #df0101;
+}
+/*My class TextColor serves so that we can change the color to my document sutitulos*/
+.TextColor {
+	color: #0101df;
+}
+/*The img tag, I use to be able to give final size my images, and also to put the 
+interlaced image with text and give a margin of separation*/
+img {
+	width: 350px;
+	height: 300px;
+  	float: right;
+  	padding-left: 20px 
+}
+/*The paragraph tag, I use so that we can adjust the text and so can be adapted to 
+the screen using the padding property*/
+p {
+	padding: 0 40px;
+}
+/*Property that use the hyperlink, I used to be able to give color and remove the 
+underlining text*/
+a {
+	color: #31b404;
+	text-decoration: none;
+}
+/*The property serves me hover for when that position in mouse on the link you can 
+change the color*/
+a:hover {
+	color: #df0101;
+}
